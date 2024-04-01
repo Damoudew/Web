@@ -1,0 +1,15 @@
+ul.a {
+    list-style-type: lower-latin;
+}
+
+ul.b{
+    list-style-type: square;
+}
+
+ul.c{
+    list-style-type: armenian;
+}
+
+ul.d{
+    list-style-type: none;
+}
