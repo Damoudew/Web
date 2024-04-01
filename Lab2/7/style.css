@@ -1,0 +1,16 @@
+tr:nth-child(2n+1){
+    background-color: yellow;
+}
+
+ul li{
+    color: red !important; 
+}
+
+body{
+    color:blue;
+}
+
+ul li,
+ol li {
+	color: green;
+}
