@@ -1,0 +1,19 @@
+a{
+    font-size: 300%;
+    color:black;
+    background-color: orange;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: grey;
+    text-decoration-line: none;
+}
+
+a:hover{
+    border-style: groove;
+    border-width: 4px;
+    border-color: black;
+}
+
+a:active{
+    border-color: #000 #aaa #aaa #000;
+}
