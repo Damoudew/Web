@@ -1,17 +1,29 @@
 #my-first-div{
-    
+    width: 200px;
     border: 2px solid black;
+    
 }
 
 #my-first-div h2{
     font-size: 0.8em;
 }
 
-#my-first-div{
+#my-first-div h3{
     font-size: 0.8rem;
 }
 
 #the-second-one{
+    width: 200px;
+    border: 2px solid black;
+    font-size: 30px;
+    position: relative;
+    float: right;
+}
 
+#the-second-one h2{
     font-size: 0.8em;
+}
+
+#the-second-one h3{
+    font-size: 0.8rem;
 }
