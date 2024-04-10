@@ -1,0 +1,17 @@
+#my-first-div{
+    
+    border: 2px solid black;
+}
+
+#my-first-div h2{
+    font-size: 0.8em;
+}
+
+#my-first-div{
+    font-size: 0.8rem;
+}
+
+#the-second-one{
+
+    font-size: 0.8em;
+}
