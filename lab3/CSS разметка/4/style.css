@@ -1,0 +1,10 @@
+.myDiv{
+    width: 400px;
+    background-color: gray;
+}
+
+body{
+    background-color: blue;
+    justify-content: center;
+    display: flex;
+}
