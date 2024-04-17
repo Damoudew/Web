@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+.myBox {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 70%;
+}
+.menuContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.menuBox {
+    font-size: x-large;
+    font-weight: 500;
+    align-content: center;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+}
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.contentBox {
+    font-size: x-large;
+    font-weight: 500;
+    font-style: italic;
+    align-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 25%;
+    border-radius: 30px;
+}
+
+.block1 {
+    background-color: red;
+}
+.block2 {
+    background-color: blue;
+}
+.block3 {
+    background-color: blue;
+}
+.block4 {
+    background-color: yellow;
+}
+.block5 {
+    background-color: red;
+}
+.block6 {
+    background-color: black;
+}
