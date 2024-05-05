@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>Documents</title>
+     <link rel="stylesheet">
+     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  	 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+   </head>
+   <body>
+        <div id ="myDiv"></div>
+        <script >
+            const animals = [{
+                id: 0,
+                name: "Horse"
+            },
+            {
+                id: 1,
+                name: "Turtle"
+            },
+            {
+                id: 2,
+                name: "Elephan"
+            },
+            {
+                id: 3,
+                name: "Monkey"
+            }
+            ];
+            
+            const listItems = animals.map(animal =>
+                    <li key ={animal.id}>{animal.name}</li>
+            );
+            
+            const content = <ul>{listItems}</ul>;
+
+            ReactDOM.render(content, document.querySelector("#myDiv"));
+        </script>
+   </body>
+</html>
