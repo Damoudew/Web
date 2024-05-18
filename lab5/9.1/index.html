@@ -12,8 +12,15 @@
    <body>
         <div id ="myDiv"></div>
         <script type = "text/babel">
-            
-            ReactDOM.render(BootstrapCard(), myDiv);
+            const Alert = (props) => {
+                if(props.show === false){
+                    return null;
+                }
+                else{
+                    return alert("Are you sure?");
+                }
+            };
+            ReactDOM.render(<Alert show={true}/>, myDiv);
         </script>
    </body>
 </html>
